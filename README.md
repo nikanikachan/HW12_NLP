@@ -58,3 +58,6 @@ In this last section, I used a named entity recognition model for both coins and
 ![Bitcoin ner](Images/bitcoin_ner.png)
 
 ![Ethereum ner](Images/eth_ner.png)
+
+
+
