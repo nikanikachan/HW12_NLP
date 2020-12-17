@@ -59,5 +59,9 @@ In this last section, I used a named entity recognition model for both coins and
 
 ![Ethereum ner](Images/eth_ner.png)
 
+### Notes
 
+[Jupyter Notebook](https://github.com/nikanikachan/HW12_NLP/blob/main/crypto_sentiment.ipynb)
+
+Note that the newsAPI articles are live. When running the notebook, the results might be different than what you see in the screenshots above.
 
