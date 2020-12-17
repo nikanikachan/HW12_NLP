@@ -4,15 +4,15 @@
 
 This analysis looks at Bitcoin and Ethereum news articles pulled from NewsAPI. I used 50 pages worth of relevant artciles for each cryptocurrency topic. This analysis is divided into 3 parts:
 
-1. Sentiment Analysis (#Sentiment_Analysis)
-2. Natural Language Processing (NLP) (#NLP)
-3. Named Entity Recognition (NER) (#NER)
+1. [Sentiment Analysis](#Sentiment_Analysis) 
+2. [Natural Language Processing (NLP)](#NLP)
+3. [Named Entity Recognition (NER)](#NER)
 
 ### Sentiment Analysis <a name="Sentiment_Analysis"></a>
 
 For this section, I used polarity scores from the nltk libary to determine the compound, positive, negative and neutral scores for each cryptocurrency. Below are the table of results:
 
-![Bitcoin Describe](Images/bitcoin_describe.png)
+![Bitcoin Describe](Images/bit_describe.png)
 
 ![Ethereum Describe](Images/eth_describe.png)
 
@@ -26,7 +26,7 @@ Using descripting statistics above, we have the following conclusions:
 
 In this section, I split the contents of each article into tokens, each with lowercase and without punctuation. In addition to the usual dictionary of english stopwords, I also included these stopwords
 
-`sw_addons = {'reuters','photo','seen', 'illustration', 'taken', 'reutersdado', 'stafffile', 'dado', 'ruvic', 'basically', 'also'}'
+`sw_addons = {'reuters','photo','seen', 'illustration', 'taken', 'reutersdado', 'stafffile', 'dado', 'ruvic', 'basically', 'also'}`
 
 These were frequently used words that came up because they referred to the source of the news (Reuters) and to descriptions of photos or photogrophers that usually accompany the news articles. They should not be considered because they are not really part of the article's content.
 
